@@ -1,0 +1,1 @@
+React + TypeScript birthday site. Run npm install then npm start. Put assets in public/assets/
