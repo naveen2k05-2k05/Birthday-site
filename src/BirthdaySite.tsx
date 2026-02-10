@@ -164,7 +164,7 @@ const BirthdaySite: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-[#FFEAF2] to-[#FFD1E6] opacity-95" />
             <div className="relative z-10 px-6 py-8 max-w-2xl w-[92%] text-center rounded-2xl bg-white/60 backdrop-blur-sm shadow-2xl">
               <motion.h1 initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8 }} className="text-4xl md:text-5xl font-bold text-[#FF5CA2] tracking-tight">
-                Happy 18th Birthday, <span className="text-pink-600">Divya</span> 💖
+                Happy Birthday, <span className="text-pink-600">Divya</span> 💖
               </motion.h1>
               <motion.p initial={{ opacity: 0 }} animate={{ opacity: 0.95 }} transition={{ delay: 0.25 }} className="mt-4 text-gray-700">
                 A tiny website for a big heart💫. Tap around — there are little surprises hidden all over. 😚💖
@@ -189,7 +189,7 @@ const BirthdaySite: React.FC = () => {
       <div className={`${introVisible ? 'pointer-events-none opacity-40' : 'opacity-100'} transition-all relative z-10`}>
         <header className="max-w-5xl mx-auto py-6 px-4 flex items-center justify-between">
           <div>
-            <h2 className="text-2xl md:text-3xl font-extrabold text-[#FF6AA5]">Happy 18th Birthday — Divi</h2>
+            <h2 className="text-2xl md:text-3xl font-extrabold text-[#FF6AA5]">Happy Birthday — Divi</h2>
             <p className="text-sm text-gray-700 mt-1">Made with ❤️ — A small surprise for you</p>
           </div>
           <div className="flex items-center gap-3">
@@ -206,7 +206,7 @@ const BirthdaySite: React.FC = () => {
           <section className="bg-white/60 backdrop-blur rounded-2xl p-6 md:p-8 shadow-md grid md:grid-cols-2 gap-6 items-center">
             <div>
               <motion.h3 initial={{ y: 16, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.6 }} className="text-2xl md:text-3xl font-bold">
-                Happy 18th, <span className="text-[#FF5CA2]">Divya</span>
+                Happy , <span className="text-[#FF5CA2]">Divya</span>
               </motion.h3>
               <p className="mt-3 text-gray-700">A tiny website for a big heart — tap around to find little surprises.</p>
               <div className="mt-5 flex flex-wrap gap-3">
